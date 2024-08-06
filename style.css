@@ -1,0 +1,118 @@
+/* *{
+    margin: 0;
+    padding: 0;
+
+} */
+
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content:space-between;
+    /* border: solid black;
+    border-radius: 12px; */
+    margin: 10px;
+  }
+
+
+  /* LEFT SIDE */
+.left{
+
+    background-image: url(leftside.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+}
+
+/* right side */
+.right {
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-image: url(rightside.jpg);
+    background-size: cover;
+  }
+
+
+  /* left logo and sentance */
+.quote {
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  /* logo css */
+.logo{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+.logo img{
+    height: 100px;
+    width: 100px;
+    margin-right: 10px;
+  }
+  
+  /* sign up from design */
+.sign{
+ border: solid black ;
+ border-radius: 10%;
+ width: 60%;
+ height: 50%;
+ background-image: url(signbackground.jpg);
+ background-size: cover;
+ color: white;
+ margin-bottom: 30px;
+ 
+}
+
+.position{
+  margin-top: 15px;
+}
+
+
+label{
+ text-align: right;
+}
+
+/* input radios */
+
+input{
+  border: solid white;
+  border-radius: 10px;
+text-align: center;
+  /* float: right; */
+}
+
+  /* sign button css */
+button{
+background-color: red;
+color:white;
+padding: 10px 20px;
+border:none;
+border-radius: 5px;
+font-size: 14px;
+cursor: pointer;
+margin-top: 18px;
+margin-bottom: 28px;
+}
+
+/* footer css */
+.footer {
+    text-align: center;
+    font-size: 12px;
+    color:black;
+    margin-top: 100px;
+  }
